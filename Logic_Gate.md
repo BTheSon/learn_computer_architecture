@@ -102,6 +102,7 @@ $$
 
 | Đầu ra            | Biểu thức logic tối giản                      |
 | ----------------- | --------------------------------------------- |
-| **Hiệu (D)**      | $\overline{A} \cdot B + A \cdot \overline{B}$ |
-| **Mượn (Borrow)** | $\overline{A} \cdot B$                        |
+| **Hiệu (D)**      | ![XOR](https://latex.codecogs.com/svg.image?\overline{A}\cdot%20B%20+%20A\cdot%20\overline{B})
+ |
+| **Mượn (Borrow)** | ![NOT A AND B](https://latex.codecogs.com/svg.image?\overline{A}\cdot%20B)|
 
