@@ -10,7 +10,7 @@
     - Mô tả về các cổng AND, OR, NOT, XOR,... cùng với bảng chân trị và sơ đồ logic.
 
 2. [**Tổng quan Kiến trúc máy tính**](Tổng_Quan.md)
-    - Tổng quan các khái niệm cơ bản: CPU, bộ nhớ, thanh ghi, BUS,...
+    - Khái niệm, các thể hệ và hệ số,...
 
 
 ## ✅ Mục tiêu dự án
