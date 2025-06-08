@@ -28,14 +28,14 @@ Một mạng logic hay một mạng các cổng là một hệ thống có dạn
 
 Nhìn vào bảng, ta thấy D = 1 tại các hàng:
 
-* A=0, B=1
-* A=1, B=0
+* A = 0, B = 1
+* A = 1, B = 0
 
 Ta viết minterms tương ứng:
 
-$$
-D = \overline{A} \cdot B + A \cdot \overline{B}
-$$
+```
+D = (-A * B) + (A * -B)
+```
 
 ---
 
@@ -43,13 +43,13 @@ $$
 
 Chỉ có một trường hợp Borrow = 1:
 
-* A=0, B=1
+* A = 0, B = 1
 
 Biểu thức:
 
-$$
-\text{Borrow} = \overline{A} \cdot B
-$$
+```
+Borrow = -A * B
+```
 
 ---
 
@@ -60,9 +60,9 @@ $$
 Không thể rút gọn thêm — đây **chính là dạng tối giản** rồi.
 Vì D là **XOR**, và biểu thức:
 
-$$
-D = \overline{A} \cdot B + A \cdot \overline{B}
-$$
+```
+D = (-A * B) + (A * -B)
+```
 
 là biểu diễn XOR bằng các cổng cơ bản.
 
@@ -70,39 +70,41 @@ là biểu diễn XOR bằng các cổng cơ bản.
 
 Biểu thức đã tối giản:
 
-$$
-\text{Borrow} = \overline{A} \cdot B
-$$
+```
+Borrow = -A * B
+```
 
 ---
 
-## 4. **Vẽ mạch logic (corresponding circuit)**
+## 4. **Vẽ mạch logic (mô tả bằng chữ)**
 
 ### a. Hiệu (D):
 
-* Tạo $\overline{A}$ và $\overline{B}$
-* Tạo hai AND:
+* Tạo `-A` và `-B` (cổng NOT)
+* Tạo hai cổng AND:
 
-  * AND1: $\overline{A} \cdot B$
-  * AND2: $A \cdot \overline{B}$
-* OR để cộng đầu ra AND1 và AND2
+  * AND1: `-A * B`
+  * AND2: `A * -B`
+* Dùng OR để cộng đầu ra của AND1 và AND2
 
 ### b. Borrow:
 
-* Dùng lại $\overline{A}$
-* Dùng AND: $\overline{A} \cdot B$
+* Dùng lại `-A`
+* Dùng AND: `-A * B`
 
 ---
 
 ## 🎯 **Sơ đồ logic mô tả bằng chữ (cho mạch trừ 1 bit)**
+
 ![mạch logic](asset/machtru.png)
+
 ---
 
-## ✅ **Tổng kết bài làm**:
+## ✅ **Tổng kết bài làm**
 
-| Đầu ra            | Biểu thức logic tối giản                      |
-| ----------------- | --------------------------------------------- |
-| **Hiệu (D)**      | ![XOR](https://latex.codecogs.com/svg.image?\overline{A}\cdot%20B%20+%20A\cdot%20\overline{B})
- |
-| **Mượn (Borrow)** | ![NOT A AND B](https://latex.codecogs.com/svg.image?\overline{A}\cdot%20B)|
+| Đầu ra            | Biểu thức logic tối giản |
+| ----------------- | ------------------------ |
+| **Hiệu (D)**      | `(-A * B) + (A * -B)`    |
+| **Mượn (Borrow)** | `-A * B`                 |
 
+---
