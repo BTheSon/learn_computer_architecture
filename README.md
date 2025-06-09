@@ -12,6 +12,7 @@
 2. [**Tổng quan Kiến trúc máy tính**](Tổng_Quan.md)
     - Khái niệm, các thể hệ và hệ số,...
 
+3. [**Các thành phần cơ bản của máy tính**](Thành_Phần.md)
 
 ## ✅ Mục tiêu dự án
 
