@@ -13,6 +13,8 @@
     - Khái niệm, các thể hệ và hệ số,...
 
 3. [**Các thành phần cơ bản của máy tính**](Thành_Phần.md)
+    - Trình bày chức năng và vai trò của CPU, bộ nhớ, thiết bị vào/ra,...
+    - Sơ đồ tổng quát và mối liên hệ giữa các thành phần.
 
 ## ✅ Mục tiêu dự án
 
