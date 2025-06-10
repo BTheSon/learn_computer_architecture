@@ -3,24 +3,24 @@
 # 1. Thành phần cơ bản
 Các thành phần chính của máy tính bao gồm:
 
-1. **Bộ xử lý trung tâm (CPU):**  
-    - Là bộ phận thực thi các lệnh.  
-    - Gồm: **ALU** (Arithmetic And Logic Unit - phần thi hành lệnh) và **CU** (Control Unit - bộ diều khiển) .  
+#### 1. **Bộ xử lý trung tâm (CPU):**  
+- Là bộ phận thực thi các lệnh.  
+- Gồm: **ALU** (Arithmetic And Logic Unit - phần thi hành lệnh) và **CU** (Control Unit - bộ diều khiển) .  
     - Điều phối các hoạt động trong máy tính.
 
-2. **Bộ nhớ trong:**  
-    - Tập hợp các **ô nhớ** chứa thông tin đã mã hoá thành số nhị phân (**dữ liệu** và **lệnh**).  
-    - Mỗi ô nhớ có **địa chỉ riêng**.  
-    - Được truy cập theo kiểu ngẫu nhiên (**RAM** - Random Access Memory).
+#### 2. **Bộ nhớ trong:**  
+- Tập hợp các **ô nhớ** chứa thông tin đã mã hoá thành số nhị phân (**dữ liệu** và **lệnh**).  
+- Mỗi ô nhớ có **địa chỉ riêng**.  
+- Được truy cập theo kiểu ngẫu nhiên (**RAM** - Random Access Memory).
 
-3. **Hệ thống các bus:**  
-    - Gồm: **bus địa chỉ**, **bus dữ liệu**, **bus điều khiển**.  
-    - **Kết nối** các thành phần của máy tính.  
-    - **Bus địa chỉ** và **bus dữ liệu**: truyền dữ liệu.  
-    - **Bus điều khiển**: đảm bảo hoạt động theo trình tự.
-    - **phân biệt**:
-        - Bus hệ thống : trao đổi thông tin giữa CPU và bộ nhớ trong
-        - Bus vào-ra dùng trao đổi thông tin giữa các bộ phận vào-ra và bộ nhớ trong.
+#### 3. **Hệ thống các bus:**  
+- Gồm: **bus địa chỉ**, **bus dữ liệu**, **bus điều khiển**.  
+- **Kết nối** các thành phần của máy tính.  
+- **Bus địa chỉ** và **bus dữ liệu**: truyền dữ liệu.  
+- **Bus điều khiển**: đảm bảo hoạt động theo trình tự.
+- **phân biệt**:
+    - Bus hệ thống : trao đổi thông tin giữa CPU và bộ nhớ trong
+    - Bus vào-ra dùng trao đổi thông tin giữa các bộ phận vào-ra và bộ nhớ trong.
 
 # 2. Tổng quan
 
