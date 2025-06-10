@@ -26,14 +26,14 @@ Các thành phần chính của máy tính bao gồm:
 
 ## 2.1. Các thành phần cơ bản của một máy tính
 
-- Một bộ máy tính cơ bản bao gồm:
-    - **CPU**: Bộ xử lý trung tâm.
-    - **Bộ nhớ trong**: 
-    - Lưu trữ dữ liệu và chương trình.
-    - Tập hợp các ô nhớ chứa thông tin mã hóa dưới dạng số nhị phân.
-    - Mỗi ô nhớ có địa chỉ riêng, hỗ trợ truy cập ngẫu nhiên (RAM).
-    - **Các bộ phận nhập/xuất**: Giao tiếp với người dùng và thiết bị ngoại vi.
-    - **Hệ thống bus**:
+### Một bộ máy tính cơ bản bao gồm:
+- **CPU**: Bộ xử lý trung tâm.
+- **Bộ nhớ trong**: 
+- Lưu trữ dữ liệu và chương trình.
+- Tập hợp các ô nhớ chứa thông tin mã hóa dưới dạng số nhị phân.
+- Mỗi ô nhớ có địa chỉ riêng, hỗ trợ truy cập ngẫu nhiên (RAM).
+- **Các bộ phận nhập/xuất**: Giao tiếp với người dùng và thiết bị ngoại vi.
+- **Hệ thống bus**:
     - **Bus địa chỉ**: Truyền địa chỉ dữ liệu.
     - **Bus dữ liệu**: Truyền dữ liệu.
     - **Bus điều khiển**: Đồng bộ và điều khiển các bộ phận.
