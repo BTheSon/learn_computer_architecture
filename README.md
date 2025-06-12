@@ -16,6 +16,8 @@
     - Trình bày chức năng và vai trò của CPU, bộ nhớ, thiết bị vào/ra,...
     - Sơ đồ tổng quát và mối liên hệ giữa các thành phần.
 
+4. [**Các thành phần cơ bản của máy tính**](./Tổ-chức-bộ-xuly.md)
+
 ## ✅ Mục tiêu dự án
 
 * 📚 Hệ thống hóa kiến thức môn Kiến trúc Máy tính
