@@ -1,6 +1,6 @@
 [Quay lại](README.md)
 
-# 1. Thành phần cơ bản
+# Thành phần cơ bản
 Các thành phần chính của máy tính bao gồm:
 
 #### 1. **Bộ xử lý trung tâm (CPU):**  

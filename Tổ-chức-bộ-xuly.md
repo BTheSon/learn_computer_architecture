@@ -1,7 +1,6 @@
 [Quay lại](README.md)
 
-Dưới đây là **tổng hợp kiến thức chính** từ file *03ToChuBoXyLy.pdf*, bài 3: **TỔ CHỨC BỘ XỬ LÝ** thuộc môn Kiến trúc máy tính:
-
+# Tổ chức bộ xử lý (CPU)
 ---
 
 ## 🔹 1. Bộ xử lý trung tâm (CPU)

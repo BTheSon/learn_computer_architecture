@@ -16,4 +16,9 @@
     - Trình bày chức năng và vai trò của CPU, bộ nhớ, thiết bị vào/ra,...
     - Sơ đồ tổng quát và mối liên hệ giữa các thành phần.
 
-4. [**Các thành phần cơ bản của máy tính**](./Tổ-chức-bộ-xuly.md)
+4. [**Tổ chức bộ xử lý (CPU)**](./Tổ-chức-bộ-xuly.md)
+    - Giới thiệu về các thành phần của CPU, bao gồm ALU, CU, thanh ghi, bus và bộ nhớ đệm.
+    - Cách thức hoạt động của CPU trong việc thực thi lệnh.
+
+5. [**Bộ nhớ máy tính**](Bộ_Nhớ.md)
+    - Giới thiệu về bộ nhớ bán dẫn, bộ nhớ chính, bộ nhớ đệm (cache), các phương pháp ánh xạ bộ nhớ.
