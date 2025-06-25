@@ -17,9 +17,3 @@
     - Sơ đồ tổng quát và mối liên hệ giữa các thành phần.
 
 4. [**Các thành phần cơ bản của máy tính**](./Tổ-chức-bộ-xuly.md)
-
-## ✅ Mục tiêu dự án
-
-* 📚 Hệ thống hóa kiến thức môn Kiến trúc Máy tính
-* ✍️ Soạn bài logic dễ hiểu, dễ ôn tập
-* 🛠️ Có thể mở rộng sang tài liệu PDF hoặc tài liệu web sau này
